@@ -1,6 +1,5 @@
-package com.nova.CryptoArbitrageCalculator;
+package arbitrage;
 
-import com.nova.CryptoArbitrageCalculator.service.SolanaAPIService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;

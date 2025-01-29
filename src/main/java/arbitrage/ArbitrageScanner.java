@@ -1,4 +1,4 @@
-package com.nova.CryptoArbitrageCalculator;
+package arbitrage;
 
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
@@ -84,7 +84,7 @@ public class ArbitrageScanner {
         return prices;
     }
 
-    static void findArbitrageOpportunities(Map<String, Double> binancePrices, Map<String, Double> solanaPrices) {
+    public static void findArbitrageOpportunities(Map<String, Double> binancePrices, Map<String, Double> solanaPrices) {
         for (String token : binancePrices.keySet()) {
             if (solanaPrices.containsKey(token)) {
                 double binancePrice = binancePrices.get(token);

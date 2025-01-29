@@ -1,5 +1,8 @@
 package com.nova.CryptoArbitrageCalculator;
 
+import arbitrage.ArbitrageScanner;
+import arbitrage.BinanceAPI;
+import arbitrage.SolanaAPI;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 

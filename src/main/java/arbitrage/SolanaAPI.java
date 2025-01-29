@@ -1,4 +1,4 @@
-package com.nova.CryptoArbitrageCalculator;
+package arbitrage;
 
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;

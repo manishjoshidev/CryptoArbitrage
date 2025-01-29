@@ -1,8 +1,6 @@
-package com.nova.CryptoArbitrageCalculator;
+package prediction;
 
 import org.deeplearning4j.nn.multilayer.MultiLayerNetwork;
-import org.deeplearning4j.nn.conf.NeuralNetConfiguration;
-import org.nd4j.linalg.factory.Nd4j;
 
 import java.util.List;
 

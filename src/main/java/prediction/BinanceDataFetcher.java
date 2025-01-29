@@ -1,4 +1,4 @@
-package com.nova.CryptoArbitrageCalculator;
+package prediction;
 
 import okhttp3.*;
 import java.io.IOException;
@@ -7,6 +7,9 @@ public class BinanceDataFetcher {
     private static final String API_URL = "https://api.binance.com/api/v3/klines";
     private static final String SYMBOL = "BTCUSDT";
     private static final String INTERVAL = "1h";
+
+    public BinanceDataFetcher(String btcusdt, String s) {
+    }
 
     public String fetchHistoricalData() {
         OkHttpClient client = new OkHttpClient();
