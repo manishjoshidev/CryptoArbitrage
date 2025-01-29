@@ -1,4 +1,4 @@
-package prediction;
+package Backend.prediction;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,4 +1,4 @@
-package com.nova.CryptoArbitrageCalculator.prediction.utils;
+package Backend.prediction.utils;
 
 import org.knowm.xchart.*;
 import org.knowm.xchart.style.Styler;

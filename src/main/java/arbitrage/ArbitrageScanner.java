@@ -12,8 +12,8 @@ import java.util.Map;
 public class ArbitrageScanner {
 
     private static final String BINANCE_API_URL = "https://api.binance.com/api/v3/ticker/price";
-    private static final String SOLANA_API_URL = "https://public-api.solscan.io/market/token";
-    private static final String SOLANA_API_TOKEN = "your-solana-api-token"; // Replace with your token
+    private static final String SOLANA_API_URL = "https://drpc.org/dashboard/5cd90204-2970-45c7-8695-cca5f5d84187/keys/501e5bb7-de26-11ef-a5de-aa2e5f93d017/settings";
+    private static final  String SOLANA_API_TOKEN = "AlzZAgQpcEXHhpXMpfXYQYdQHlu33iYR76Xeqi5fk9AX"; // Replace with your token
 
     // Binance Fees
     private static final double BINANCE_FEE = 0.001; // 0.1%

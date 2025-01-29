@@ -1,8 +1,4 @@
-package web;
-
-import prediction.AIModelTrainer;
-import prediction.BinanceDataFetcher;
-import prediction.DataPreprocessor;
+package Backend.prediction;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -20,7 +16,7 @@ public class PredictionController {
         // Parse rawData, normalize, train, and predict
         // Placeholder logic
         double prediction = Math.random();
-        model.addAttribute("prediction", prediction);
+        model.addAttribute("Backend/prediction", prediction);
         return "predictions";
     }
 }

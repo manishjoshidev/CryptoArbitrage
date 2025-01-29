@@ -1,4 +1,4 @@
-package com.nova.CryptoArbitrageCalculator.prediction.utils;
+package Backend.prediction.utils;
 
 import java.util.List;
 

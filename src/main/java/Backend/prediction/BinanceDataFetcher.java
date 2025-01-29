@@ -1,4 +1,4 @@
-package prediction;
+package Backend.prediction;
 
 import okhttp3.*;
 import java.io.IOException;

@@ -1,4 +1,4 @@
-package prediction;
+package Backend.prediction;
 
 import org.deeplearning4j.nn.multilayer.MultiLayerNetwork;
 
