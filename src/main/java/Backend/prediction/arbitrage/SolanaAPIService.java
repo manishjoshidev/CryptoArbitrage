@@ -1,4 +1,4 @@
-package arbitrage;
+package Backend.prediction.arbitrage;
 
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;

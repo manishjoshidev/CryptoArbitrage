@@ -1,4 +1,4 @@
-package arbitrage;
+package Backend.prediction.arbitrage;
 
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
